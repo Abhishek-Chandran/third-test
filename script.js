@@ -40,11 +40,11 @@ WARNING!!! WARNING!!!
     var firstLetter =names[name].charAt(0);
     if (firstLetter==="J") {
       
-      helloSpeaker(names[name]);
+      byeSpeaker(names[name]);
     
     } else {
+      helloSpeaker(names[name]);
       
-      byeSpeaker(names[name]);
     }
     
   }
